@@ -73,7 +73,7 @@ fi
 }
 # note this is only print 7 charecters
 echo "";
-echo -e "\e[1;34m[*] \e[32minstall packages....\e[0m";
+echo -e "\e[1;34m[*] \e[32mInstall Package Dulu Ye....\e[0m";
 echo "";
 (apt update -y && apt upgrade -y) &> /dev/null;
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api procps gawk termux-tools -y &> /dev/null;
@@ -100,19 +100,20 @@ Remo773 (2020)
 +---------------------------*/
 .......Terminal-Header......
 +---------------------------*/
-oh-my-zsh users only....
+Cr : @Remo773....
+Rc : @Dikss-Ae....
 \033[0m";
 ok=0
 while [ $ok = 0 ];
 do
 	echo ""
 tput setaf 3
-read -p "Pleas enter Name : " PROC
+read -p "Masukan Namanya : " PROC
 tput sgr 0
 if [[ ${#PROC} -gt 8 ]]; then
-	echo -e "\e[1;34m[*] \033[32mToo long  characters You have input...\033[0m"
+	echo -e "\e[1;34m[*] \033[32mPanjang Amat Namanya...\033[0m"
 	echo ""
-	echo -e "\033[32mPlz enter less than \033[33m9 \033[32mcharacters Name\033[0m" | pv -qL 10;
+	echo -e "\033[32mMasukan Nama Lebih Sedikit, Maksimal \033[33m7 \033[32mKarakter\033[0m" | pv -qL 10;
 	echo ""
 	sleep 4
 	clear
@@ -123,10 +124,11 @@ Remo773 (2020)
 +---------------------------*/
 .......Terminal-Header......
 +---------------------------*/
-oh-my-zsh users only....
+Cr : @Remo773....
+Rc : @Dikss-Ae....
 \033[0m";
 	echo ""
-	echo -e "\e[1;34m \033[32mPlease enter less than 9 characters...\033[0m"
+	echo -e "\e[1;34m \033[32mMasukan Nama Lebih Sedikit, Maximal 7 Karakter...\033[0m"
 	echo ""
 else
 	ok=1
@@ -149,7 +151,7 @@ echo -e "
 \033[0;31m└──╼ \e[1;31m❯\e[1;34m❯\e[1;90m❯\033[0m "
 
 tput setaf 3
-read -p  "Do you want to setup this ? (y/n) " PROC32
+read -p  "Lu Yakin Mau Setup Ini ? (y/n) " PROC32
 tput sgr 0
 if [[ ${PROC32} == [Y/y] ]]; then
 	if [ -e $HOME/t-header.txt ]; then
@@ -216,7 +218,7 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f Remo773 "Header- Prem")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
 Remo773 : (\e[33m14.4.2021\e[32m)
@@ -226,10 +228,11 @@ Remo773 : (\e[33m14.4.2021\e[32m)
 3. Zsh-command-autosuggest (\e[33mplugins\e[01;32m)
 4. Terminal-Header
 5. Custom PS1 prompt ( \e[33mBest one\e[1;32m )
+6. Dikss Offc ( \e[33mPacarnya sindu\e[1;32m )
 +----------------------------------*/
 \033[0m";
 tput setaf 3;
-read -p  "Do you want to setup this ? (y/n) " PROC33
+read -p  "Lu Yakin Mau Setup Ini ? (y/n) " PROC33
 
 tput sgr 0
 if [[ ${PROC33} == [Y/y] ]]; then
@@ -242,11 +245,11 @@ if [ -d $HOME/.oh-my-zsh ]; then
 elif [ -d $HOME/.zsh ]; then
 	(rm -rf $HOME/.zsh) &> /dev/null
 else
-	echo -e "\e[1;34m[*] \e[32mYou hvnt oh-my-zsh...\e[0m";
+	echo -e "\e[1;34m[*] \e[32mSindu Cantik Bet Anjg...\e[0m";
 fi
 while [ $ozsh = 0 ];
 do
-	echo -e "\e[1;34m[*] \e[32mOh-my-zsh new setup....\e[0m";
+	echo -e "\e[1;34m[*] \e[32mSindu My Darling....\e[0m";
 	echo "";
 
 	( rm -rf ~/.zshrc;git clone https://github.com/ohmyzsh/ohmyzsh.git $HOME/.oh-my-zsh;cp "$HOME/.oh-my-zsh/templates/zshrc.zsh-template" "$HOME/.zshrc";termux-wake-unlock; ) &> /dev/null & spin;
