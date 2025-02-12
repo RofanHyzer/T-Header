@@ -30,7 +30,7 @@ for ((i=1; i<=7; i++)); do
 echo "│"
 done
 PUT 10 ${var4}
-echo -e "\e[32mMy Darling \e[33m❤\e[0m"
+echo -e "\e[32mCewek Paling \e[33mCantik\e[0m"
 PUT 12 0
 echo
 NORM
