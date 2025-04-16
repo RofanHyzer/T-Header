@@ -125,7 +125,7 @@ Remo773 (2020)
 .......Terminal-Header......
 +---------------------------*/
 Cr : @Remo773....
-Rc : @Dikss-Ae....
+Rc : @DikssAe....
 \033[0m";
 	echo ""
 	echo -e "\e[1;34m \033[32mMasukan Nama Lebih Sedikit, Maximal 7 Karakter...\033[0m"
@@ -228,7 +228,7 @@ Remo773 : (\e[33m14.4.2021\e[32m)
 3. Zsh-command-autosuggest (\e[33mplugins\e[01;32m)
 4. Terminal-Header
 5. Custom PS1 prompt ( \e[33mBest one\e[1;32m )
-6. Dikss Offc ( \e[33mPacarnya sindu\e[1;32m )
+6. Dikss Offc ( \e[33mTukang CopyRight\e[1;32m )
 +----------------------------------*/
 \033[0m";
 tput setaf 3;
@@ -245,11 +245,11 @@ if [ -d $HOME/.oh-my-zsh ]; then
 elif [ -d $HOME/.zsh ]; then
 	(rm -rf $HOME/.zsh) &> /dev/null
 else
-	echo -e "\e[1;34m[*] \e[32mSindu Cantik Bet Anjg...\e[0m";
+	echo -e "\e[1;34m[*] \e[32mTunggu Bentar...\e[0m";
 fi
 while [ $ozsh = 0 ];
 do
-	echo -e "\e[1;34m[*] \e[32mSindu My Darling....\e[0m";
+	echo -e "\e[1;34m[*] \e[32mDikss Offc....\e[0m";
 	echo "";
 
 	( rm -rf ~/.zshrc;git clone https://github.com/ohmyzsh/ohmyzsh.git $HOME/.oh-my-zsh;cp "$HOME/.oh-my-zsh/templates/zshrc.zsh-template" "$HOME/.zshrc";termux-wake-unlock; ) &> /dev/null & spin;
@@ -263,7 +263,7 @@ else
 fi
 done
 
-echo -e "\e[1;34m[*] \e[32mZsh-autosuggestion plugins setup..\e[0m";
+echo -e "\e[1;34m[*] \e[32mDikss-autosuggestion plugins setup..\e[0m";
 
 zshau=0
 (rm -rf ~/.plugins) &> /dev/null
